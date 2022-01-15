@@ -154,7 +154,7 @@ const EvenComponent = ({ Question, Answer }) => {
   );
 };
 
-const FAQ = () => {
+const FrequentlyAskedQuestions = () => {
 
   const faqsRef = useNav('Faqs');
 
@@ -180,4 +180,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default FrequentlyAskedQuestions;
