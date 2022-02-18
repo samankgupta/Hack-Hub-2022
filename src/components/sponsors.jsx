@@ -8,6 +8,7 @@ import celo from "../images/sponsors/gold/celo.png";
 import tezos from "../images/sponsors/gold/tezos.png";
 import filecoin from "../images/sponsors/gold/filecoin.png";
 import koii from "../images/sponsors/gold/koii.png"
+import gfg from "../images/sponsors/gold/gfg.png"
 import certopus from "../images/sponsors/silver/certopus.png";
 import echo from "../images/sponsors/silver/echo.png";
 import badeLog from "../images/sponsors/silver/badelog.png";
@@ -16,6 +17,8 @@ import leadinglearners from "../images/sponsors/silver/leadinglearners.png";
 import taskade from "../images/sponsors/silver/taskade.png";
 import axure from "../images/sponsors/silver/axure.png";
 import clerky from "../images/sponsors/silver/clerky.png";
+import codingninjas from "../images/sponsors/silver/codingninjas.png";
+import raahee from "../images/sponsors/silver/raahee.png";
 
 const page = [
   {
@@ -70,6 +73,11 @@ const page = [
             key: 4,
             src: koii,
             href: 'https://koii.network/'
+          },
+          {
+            key: 5,
+            src: gfg,
+            href: 'https://www.geeksforgeeks.org/'
           }
         ],
       },
@@ -107,7 +115,7 @@ const page = [
           {
             key: 6,
             src: leadinglearners,
-            href: ' linktr.ee/leadinglearners'
+            href: 'https://linktr.ee/leadinglearners'
           },
           {
             key: 7,
@@ -118,6 +126,16 @@ const page = [
             key: 8,
             src: clerky,
             href: 'https://www.clerky.com/'
+          },
+          {
+            key: 9,
+            src: codingninjas,
+            href: 'https://codingninjas.com/'
+          },
+          {
+            key: 10,
+            src: raahee,
+            href: 'https://raahee.in/'
           }
         ],
       },
@@ -158,7 +176,7 @@ const Sponsors = () => {
                   <div className="lg:flex lg:flex-wrap lg:justify-around bg-transparent mx-8" >
                     {item.content.map((item) => {
                       return (
-                        <a href={item.href} target="_blank" rel="noreferrer" style={{ "flexBasis": "25%" }}>
+                        <a href={item.href} target="_blank" rel="noreferrer" style={{ "flexBasis": "33%" }}>
                           <div className="h-20 bg-white hover:bg-gray-200 m-6 rounded-xl">
                             <img
                               className="object-contain p-3 h-full w-full"
